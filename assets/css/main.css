@@ -2340,9 +2340,6 @@ input, select, textarea {
 			#header {
 				width: 20%;
 			}
-			#logo {
-				background: #38761d;
-			}
 			#logo .image {
 				position: relative;
 				margin: 0 0 0.5em 0;
@@ -2373,6 +2370,7 @@ input, select, textarea {
 		/* Main */
 
 			#main {
+				background: #38761d;
 				margin-left: 20%;
 			}
 
