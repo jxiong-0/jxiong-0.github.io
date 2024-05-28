@@ -2370,7 +2370,6 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				background: #38761d;
 				margin-left: 20%;
 			}
 
@@ -2445,6 +2444,7 @@ input, select, textarea {
 			}
 
 				#header .top {
+					background: #38761d;
 					position: relative;
 				}
 
