@@ -2034,6 +2034,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
+		background: #d1e0b8;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2048,7 +2049,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background: #222629 url("images/overlay.png");
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
-		color: #fff;
+		color: #556b2f;
 		height: 100%;
 		left: 0;
 		overflow-y: auto;
@@ -2083,7 +2084,7 @@ input, select, textarea {
 		}
 
 			#header .icons a {
-				color: #41484c;
+				color: #465927;
 				-moz-transition: color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out;
@@ -2103,7 +2104,7 @@ input, select, textarea {
 
 		#logo h1 {
 			position: relative;
-			color: #fff;
+			color: #556b2f;
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
@@ -2156,7 +2157,6 @@ input, select, textarea {
 					#nav ul li a span:before {
 						position: absolute;
 						left: 0;
-						color: #41484c;
 						text-align: center;
 						width: 1.25em;
 						line-height: 1.75em;
@@ -2169,7 +2169,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+					color : #e8efdc;
 					}
 
 /* Footer */
@@ -2177,7 +2177,7 @@ input, select, textarea {
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: #dce3e2;
+		background-color: #dde8ca;
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -2204,9 +2204,11 @@ input, select, textarea {
 
 /* Main */
 
+
 	#main {
 		margin-left: 375px;
 	}
+		
 
 		#main > section {
 			margin: 0;
@@ -2252,11 +2254,11 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #e8efdc;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #f4f7ed;
 			}
 
 			#main > section.four {
@@ -2444,7 +2446,6 @@ input, select, textarea {
 			}
 
 				#header .top {
-					background: #38761d;
 					position: relative;
 				}
 
