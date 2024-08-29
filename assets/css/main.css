@@ -224,10 +224,7 @@ input, select, textarea {
 	br.clear {
 		clear: both;
 	}
-        p{
-                font-weight: 400;
-        }
-
+        
 /* Container */
 
 	.container {
