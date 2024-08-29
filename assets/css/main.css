@@ -110,11 +110,26 @@ input, select, textarea {
 		color: #888;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h4, h5 {
 		font-weight: 300;
 		color: DarkOliveGreen;
 		line-height: 1.5em;
 	}
+       
+        h3 {
+                font-weight:400;
+                color: #765341;
+                line-height: 1.5 em;
+        }
+        h6{
+                font-weight: 400;
+                color: DarkOliveGreen;
+        }
+        h2 {
+                font-weight: 500;
+                color: DarkOliveGreen;
+                line-height:1.5em;
+        }
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
